@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horario</title>
+    <link rel="stylesheet" href="css/horario-pc.css" type="text/css" media="(min-width: 768px)">
+    <link rel="stylesheet" href="css/horario-clr.css" type="text/css" media="(max-width:767px)">
+    <link rel="stylesheet" href="css/sala.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="retangulo1"></h1>
+        <h1 id="retangulo2"></h1>
+        <h1 id="caixa1"></h1>
+        <h1 id="caixa2"></h1>
+        <h1 id="caixa3"></h1>
+        <h1 id="caixa4"></h1>
+        <h1 id="caixa5"></h1>
+        <h1 id="dia1"></h1>
+        <h1 id="dia2"></h1>
+        <h1 id="dia3"></h1>
+        <h1 id="dia4"></h1>
+        <h1 id="dia5"></h1>
+        <div class="card">
+            <div id="menu">
+                <h1 id="opcao"></h1>
+                <button id="opcao-btn"></button>
+                <ul id="opcao-lista">
+                    <li><a href="/index.html">Menu</a></li>
+                    <li onclick="exibir1()"><a href="#">atividade</a></li>
+                    <li onclick="exibir2()"><a href="#">horario</a></li>
+                    <li onclick="exibir3()"><a href="#">Notas</a></li>
+                </ul>
+            </div>
+            <h1 id="sala"></h1>
+            <div class="sala-menu oculta" id="salaMenu">
+                <li onclick="exibir3b()">3ºB</li>
+                <li onclick="exibir3d()">3ºD</li>
+            </div>
+            <button class="sala-botao" id="sala-but" onclick="alternarSala()">Sala</button>
+            <div id="sla"></div>
+
+            <h1 id="materia"></h1>
+            <h1 id="dia"></h1>
+        </div>
+    </div>
+    <script src="js/sala.js"></script>
+</body>
+</html>

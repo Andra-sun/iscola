@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horar</title>
+    <link rel="stylesheet" href="hora-pc.css" type="text/css" media="(min-width: 768px)">
+    <link rel="stylesheet" href="horrr.css" type="text/css" media="(max-width:767px)">
+    <link rel="stylesheet" href="lis.css">
+    <link rel="stylesheet" href="horrr.css">
+    <link rel="stylesheet" href="css/opc.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="retangulo1"></h1>
+        <h1 id="retangulo2"></h1>
+        <h1 id="caixa1"></h1>
+        <h1 id="caixa2"></h1>
+        <h1 id="caixa3"></h1>
+        <h1 id="caixa4"></h1>
+        <h1 id="caixa5"></h1>
+        <h1 id="dia1"></h1>
+        <h1 id="dia2"></h1>
+        <h1 id="dia3"></h1>
+        <h1 id="dia4"></h1>
+        <h1 id="dia5"></h1>
+        <div class="card">
+            <div id="menu">
+                <h1 id="opcao"></h1>
+                <button id="opcao-btn"></button>
+                <ul id="opcao-lista">
+                  <li><a href="/index.html">Menu</a></li>
+                  <li><a href="Agenda.html">atividade</a></li>
+                  <li><a href="horario.html">horario</a></li>
+                  <li><a href="nota.html">Notas</a></li>
+                </ul>
+            </div>
+
+            <h1 id="sala"></h1>
+            <button id="sala-btn">Sala</button>
+            <ul id="sala-lista">
+            <li>3ºB</li>
+            <li>3ºD</li>
+            </ul>
+
+            <h1 id="materia"></h1>
+            <div class="materia-menu oculta" id="materiaMenu">
+                <li onclick="exibir1()">1</li>
+                <li onclick="exibir2()">2</li>
+                <li onclick="exibir3()">3</li>
+            </div>
+            <button class="materia-botao" id="butao" onclick="alternarMateria()">Materia</button>
+            <div id="sla1"></div>
+
+            <h1 id="dia"></h1>
+        </div>
+    </div>
+    <script src="/paginas/js/lis.js"></script>
+    <script src="mater.js"></script>
+    <script src="tes.js"></script>
+    <script src="js/opicao.js"></script>
+</body>
+</html>

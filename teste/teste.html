@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste</title>
+        <style>
+            .barra-menu {
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                background-color: #333;
+                color: #fff;
+                padding: 10px;
+                z-index: 9999;
+                transition: top 0.3s;
+            }
+    
+            .barra-menu.oculta {
+                top: -40px;
+            }
+    
+            .botao-menu {
+                position: fixed;
+                top: 10px;
+                right: 10px;
+                background-color: #333;
+                color: #fff;
+                padding: 5px 10px;
+                cursor: pointer;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="barra-menu oculta" id="barraMenu">
+            <button onclick="exibirMiau()">Botão 1</button>
+            <button onclick="exibirPiu()">Botão 2</button>
+        </div>
+    
+        <div class="botao-menu" onclick="alternarMenu()">Menu</div>
+    
+        <h1>Exemplo de Barra de Menu Escondida em um Botão</h1>
+        <p>Clique no botão "Menu" para exibir ou ocultar a barra de menu. Em seguida, clique nos botões na barra para exibir "miau" ou "piu" na tela.</p>
+    
+        <div id="conteudo"></div>
+    
+        <script>
+            function exibirMiau() {
+                document.getElementById("conteudo").innerText = "Miau";
+            }
+    
+            function exibirPiu() {
+                document.getElementById("conteudo").innerText = "Piu";
+            }
+    
+            function alternarMenu() {
+                var barraMenu = document.getElementById("barraMenu");
+                barraMenu.classList.toggle("oculta");
+            }
+        </script>
+    </body>
+    </html>

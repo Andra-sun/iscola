@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horario</title>
+    <link rel="stylesheet" href="hora-pc.css" type="text/css" media="(min-width: 768px)">
+    <link rel="stylesheet" href="lis.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            
+            <div class="barra-menu oculta" id="barraMenu">
+                <button onclick="exibirMiau()">botao 1</button>
+                <button onclick="exibirPiu()">botao 2</button>
+            </div>
+            <div class="botao-menu" onclick="alternarMenu()">menu</div>
+            <div id="conteudo"></div>
+
+            <div class="sala-menu oculta" id="salaMenu">
+                <button onclick="exibir3b()">3ºB</button>
+                <button onclick="exibir3d()">3ºD</button>
+            </div>
+            <div class="botao-sala" onclick="alternarSala()">Sala</div>
+            <div id="sla"></div> 
+
+            <!-- <button id="sala-btn">Sala</button>
+            <ul id="sala-lista">
+            <li id="item3B">3ºB</li>
+            <li id="sd">3ºD</li>
+            </ul> -->
+            
+        </div>
+    </div>
+    <script src="li.js"></script>
+    <script src="tes.js"></script>
+</body>
+</html>
