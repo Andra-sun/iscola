@@ -122,11 +122,96 @@
         top: -150px;
     }
     
-    #sla {
+    sla {
         position: absolute;
         top: 110px; /* ajuste a posição vertical conforme necessário */
-        left: 800px; /* ajuste a posição horizontal conforme necessário */
+        left: 80px; /* ajuste a posição horizontal conforme necessário */
         color:#fff;
     }
+    #mensagem1a{
+        position: absolute;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        width: 168px;
+        height: 149px;
+        left: 506px;
+        top: 190px;
+        
+        font-family: 'JetBrains Mono';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 25px;
+        /* or 125% */
+        text-align: center;
+        color: #FFFFFF;
+        mix-blend-mode: normal;
+    }
+
+    #mensagem1b{
+        position: absolute;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        width: 168px;
+        height: 149px;
+        left: 506px;
+        top: 355px;
+        
+        font-family: 'JetBrains Mono';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 25px;
+        /* or 125% */
+        text-align: center;
+        color: #FFFFFF;
+        mix-blend-mode: normal;
+    }
+
+    #mensagem1c{
+        position: absolute;
+        width: 168px;
+        height: 125px;
+        left: 501px;
+        top: 517px; 
+        font-family: 'JetBrains Mono';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 25px;
+        /* or 125% */
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    #mensagem1d{
+        position: absolute;
+        width: 195px;
+        height: 124px;
+        left: 487px;
+        top: 680px;
+        font-family: 'JetBrains Mono';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 25px;
+        /* or 125% */
+        text-align: center;
+        color: #FFFFFF;
+    }
+    #mensagem1e{
+        position: absolute;
+        width: 195px;
+        height: 124px;
+        left: 487px;
+        top: 840px;
+        font-family: 'JetBrains Mono';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 25px;
+        /* or 125% */
+        text-align: center;
+        color: #FFFFFF;
+    }    
+          
       
 }
