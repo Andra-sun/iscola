@@ -345,7 +345,7 @@
     #mensagem1c{
         position: absolute;
         width: 168px;
-        height: 125px;
+        height: 149px;
         left: 501px;
         top: 517px; 
         font-family: 'JetBrains Mono';
@@ -356,6 +356,7 @@
         /* or 125% */
         text-align: center;
         color: #FFFFFF;
+        mix-blend-mode: normal;
     }
     #mensagem1d{
         position: absolute;
